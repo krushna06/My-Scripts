@@ -9,3 +9,9 @@
 - [Java](/Build%20Scripts/java.sh)
 - [UFW Ports](/Networking%20Scripts/ufw.sh)
 - [Net Tools](/Networking%20Scripts/nettools.sh)
+
+## Post run:
+Make it executable by running:
+```
+chmod +x script_name.sh
+```
