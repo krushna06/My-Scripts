@@ -4,13 +4,26 @@
 
 ## Scripts included:
 
-- [Nodejs](/Build%20Scripts/nodejs.sh)
-- [Python](/Build%20Scripts/python.sh)
-- [Java](/Build%20Scripts/java.sh)
+<details>
+<summary>AIO (All In One)</summary>
+
+- [Nodejs]()
+- [Python]()
+- [Java]()
+
+</details>
+
+<details>
+<summary>Networking Scripts</summary>
+
 - [UFW Ports](/Networking%20Scripts/ufw.sh)
 - [Net Tools](/Networking%20Scripts/nettools.sh)
+- [SSL]()
 
-## Post run:
+</details>
+
+
+## Post run if needed:
 Make it executable by running:
 ```
 chmod +x script_name.sh
