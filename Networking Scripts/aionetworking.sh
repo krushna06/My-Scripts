@@ -7,7 +7,20 @@ install_network_tools() {
 
 # Function to configure UFW for SSH
 configure_ufw_ssh() {
-    # ... (existing code)
+    # Allow SSH port
+    sudo ufw allow ssh
+
+    # Whitelist commonly used ports
+    sudo ufw allow 80     # HTTP
+    sudo ufw allow 443    # HTTPS
+    sudo ufw allow 22     # SSH (already allowed above)
+    sudo ufw allow 53     # DNS
+    sudo ufw allow 123    # NTP
+
+    # Enable UFW
+    sudo ufw --force enable
+
+    echo "UFW configured for SSH and popular ports."
 }
 
 # Function to get details of a specific port
