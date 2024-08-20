@@ -8,8 +8,7 @@ install_nodejs() {
   echo "3. Node.js v18"
   echo "4. Node.js v19"
   echo "5. Node.js v20"
-  echo "6. Node.js LTS"
-  echo "7. Node.js Latest"
+  echo "6. Node.js Latest"
 
   read -p "Enter the number for your choice: " node_choice
 
@@ -19,8 +18,7 @@ install_nodejs() {
     3) node_version="18" ;;
     4) node_version="19" ;;
     5) node_version="20" ;;
-    6) node_version="lts" ;;
-    7) node_version="node" ;;
+    6) node_version="node" ;;
     *) echo "Invalid choice"; exit 1 ;;
   esac
 
