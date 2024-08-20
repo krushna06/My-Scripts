@@ -7,9 +7,9 @@
 <details>
 <summary>AIO (All In One)</summary>
 
-- [Nodejs]()
-- [Python]()
-- [Java]()
+- Nodejs
+- Python
+- Java
 
 </details>
 
