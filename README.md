@@ -16,8 +16,8 @@
 <details>
 <summary>Networking Scripts</summary>
 
-- [UFW Ports](/Networking%20Scripts/ufw.sh)
-- [Net Tools](/Networking%20Scripts/nettools.sh)
+- [UFW Ports]()
+- [Net Tools]()
 - [SSL]()
 
 </details>
