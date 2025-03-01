@@ -1,33 +1,25 @@
 #!/bin/bash
 
-# Function to install networking tools
 install_network_tools() {
-    # ... (existing code)
+    sudo apt update
+    sudo apt install -y net-tools dnsutils curl wget
+    echo "Networking tools installed."
 }
 
-# Function to configure UFW for SSH
 configure_ufw_ssh() {
-    # Allow SSH port
     sudo ufw allow ssh
-
-    # Whitelist commonly used ports
-    sudo ufw allow 80     # HTTP
-    sudo ufw allow 22     # SSH (already allowed above)
-    sudo ufw allow 53     # DNS
-    sudo ufw allow 123    # NTP
-
-    # Enable UFW
+    sudo ufw allow 80
+    sudo ufw allow 22
+    sudo ufw allow 53
+    sudo ufw allow 123
     sudo ufw --force enable
-
     echo "UFW configured for SSH and popular ports."
 }
 
-# Function to get details of a specific port
 get_port_details() {
-    # ... (existing code)
+    sudo netstat -tulnp | grep ":$1"
 }
 
-# Main menu
 echo "Select the script to run:"
 echo "1. Install networking tools"
 echo "2. Configure UFW for SSH"
