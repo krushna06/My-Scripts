@@ -1,30 +1,29 @@
-# Install Scripts
+# Scripts
 
-#### This repo contains all the scripts that are used by me (n0step_) while managing Linux based systems.
+Welcome to my collection of scripts designed for managing Unix-based systems. These scripts are maintained by me, [@n0step_](https://github.com/n0step_).
 
-## Scripts included:
+## Overview
 
-<details>
-<summary>AIO (All In One)</summary>
+This repository contains various scripts that make it easier for me to manage the system. Feel free to explore and utilize them in your own projects!
 
-- Nodejs
-- Python
-- Java
+## Getting Started
 
-</details>
+### Making Scripts Executable
 
-<details>
-<summary>Networking Scripts</summary>
+Before running any script, ensure it is executable. You can do this by executing the following command in your terminal:
 
-- [UFW Ports]()
-- [Net Tools]()
-- [SSL]()
-
-</details>
-
-
-## Post run if needed:
-Make it executable by running:
-```
+```bash
 chmod +x script_name.sh
 ```
+
+### Usage
+
+To run a script, simply use the following command:
+
+```bash
+./script_name.sh
+```
+
+## Contributing
+
+If you have suggestions or improvements, feel free to open an issue or submit a pull request!
